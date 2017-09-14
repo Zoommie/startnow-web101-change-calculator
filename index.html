@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Write your markup here -->
+  
+<div class="col-sm-12 col-md-12 col-lg-12">
+  <h1>Change Calculator</h1>
+</div>
+
+  <div style="margin: 40px 0; width:100%">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="inputbox">
+              <h4>AMOUNT DUE</h4>
+              <input id="amount-due" type="text"  />
+          </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="inputbox">
+            <h4>AMOUNT RECIEVED</h4>
+            <input id="amount-received" type="text"/>
+          </div>
+      </div>
+  </div>
+
+ <div class="col-sm-12 col-md-12 col-lg-12">     
+  <div class="buttonbox">
+    <button id="calculate-change">CALCULATE</button>
+  </div>
+
+
+
+<h4>Dollars</h4>
+<p id="dollars-output"></p>
+<h4>Quarters</h4>
+<p id="quarters-output"></p>
+<h4>Dimes</h4>
+<p id="dimes-output"></p>
+<h4>Nickles</h4>
+<p id="nickels-output"></p>
+<h4>Pennys</h4>
+<p id="pennies-output"></p>
+
+ </div>
+</div>
+
+
+    <!-- Don't forget to add your <script> tag here -->
+
+
+   <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script>
+
+        <script src="main.js" charset="utf-8"></script>
+
+
+  </body>
+</html>
